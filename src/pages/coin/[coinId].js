@@ -10,7 +10,7 @@ const IndexPage = ({ serverData }) => {
   useEffect(() => {
     setData(serverData)
     setLoading(false)
-    console.log(data)
+    // console.log(data)
   }, [data])
 
 
@@ -32,7 +32,6 @@ export default IndexPage
 export async function getServerData(context) {
   try {
     const res = await fetch(`https://api.coingecko.com/api/v3/coins/${context.params.coinId}`)
-    // console.log(context.params.coinId)
 
     if (!res.ok) {
       throw new Error(`Response failed`)
