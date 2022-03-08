@@ -15,7 +15,7 @@ const IndexPage = ({ serverData }) => {
   return (
     <Layout>
       <h1 className="mb-6">Coin Listing Page</h1>
-      {loading ? <p className="text-2xl py-6 text-purple-500">Loading, please wait...</p> :
+      {loading ? <p className="font-bold text-2xl py-6">Loading, please wait...</p> :
         <>
           {data?.map((d, i) => {
             return (

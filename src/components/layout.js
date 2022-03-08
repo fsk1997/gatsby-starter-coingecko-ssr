@@ -28,7 +28,7 @@ const Layout = ({ children, customSiteTitle }) => {
           <div className="container mx-auto">
             © {new Date().getFullYear()}, Built with
             {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+            <a href="https://www.gatsbyjs.org">Gatsby</a>, by <a href="https://www.saykiat.com/bio" target="_blank" rel="noreferrer">SayKiat</a> 
           </div>
         </footer>
       </div>
