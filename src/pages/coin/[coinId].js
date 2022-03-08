@@ -19,7 +19,7 @@ const IndexPage = ({ serverData }) => {
       {loading ? <p>Loading</p> :
       <>
         <h1>{data.name}</h1>
-        <img src="https://assets.coingecko.com/coins/images/12008/large/683JEXMN_400x400.png?1596692307"/>
+        <img src={data.image?.large}/>
         <div>{ReactHtmlParser(data.description.en)}</div>
       </>
       }
