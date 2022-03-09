@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-starter-coingekco-ssr",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby and TailwindCSS",
+  "description": "A simple starter to get up and developing quickly with Gatsby SSR",
   "version": "0.3.0",
-  "author": "Kostas Vrouvas <hello@kosvrouvas.com>",
+  "author": "Fong Say Kiat <saykiat.fong@gmail.com>",
   "dependencies": {
     "autoprefixer": "^10.4.2",
     "gatsby": "^4.5.3",
@@ -44,9 +44,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kosvrouvas/gatsby-tailwindcss-starter"
+    "url": "https://github.com/fsk1997/gatsby-starter-coingecko-ssr"
   },
   "bugs": {
-    "url": "https://github.com/kosvrouvas/gatsby-tailwindcss-starter/issues"
+    "url": "https://github.com/fsk1997/gatsby-starter-coingecko-ssr/issues"
   }
 }
