@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react"
 import Layout from "../../components/layout"
 import ReactHtmlParser from "react-html-parser"
-
 import Jimp from "jimp"
 
-const IndexPage = ({ serverData }) => {
+const CoinPage = ({ serverData }) => {
+
   const [data, setData] = useState({})
   const [loading, setLoading] = useState(true)
 
@@ -29,7 +29,7 @@ const IndexPage = ({ serverData }) => {
   )
 }
 
-export default IndexPage
+export default CoinPage
 
 export async function getServerData(context) {
   try {
