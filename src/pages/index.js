@@ -11,10 +11,10 @@ const IndexPage = ({ serverData }) => {
     setData(serverData)
     setLoading(false)
   }, [data])
-
+  
   return (
     <Layout>
-      <h1 className="mb-6">Coin Listing Page</h1>
+      <h1 className="mb-6">Top 100 Coins Listing Page</h1>
       {loading ? <p className="font-bold text-2xl py-6">Loading, please wait...</p> :
         <>
           {data?.map((d, i) => {
@@ -38,7 +38,7 @@ export default IndexPage
 
 export async function getServerData() {
   try {
-    const res = await fetch(`https://api.coingecko.com/api/v3/coins/list`)
+    const res = await fetch(`https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false`)
 
     if (!res.ok) {
       throw new Error(`Response failed`)
