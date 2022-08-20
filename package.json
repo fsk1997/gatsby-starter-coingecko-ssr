@@ -9,6 +9,7 @@
     "gatsby": "^4.21.1",
     "gatsby-plugin-google-analytics": "^4.21.0",
     "gatsby-plugin-image": "^2.21.0",
+    "gatsby-plugin-netlify": "^5.0.1",
     "gatsby-plugin-purgecss": "^6.1.2",
     "gatsby-plugin-sharp": "^4.21.0",
     "gatsby-source-filesystem": "^4.21.1",
