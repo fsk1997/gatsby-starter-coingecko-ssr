@@ -5,8 +5,8 @@ Full article walkthrough: <a href="https://saykiat.com/essay/trying-out-server-s
   Trying out Server-side Rendering with Dynamic Pages using GatsbyJS
 </a>
 <br/>
-Demo page: <a href="https://gatsbystartercoingeckossr.gatsbyjs.io">
-  Preview hosted on Gatsby Cloud
+Demo page: <a href="https://gatsby-starter-coingecko-ssr.saykiat.com/">
+  Preview Live
 </a>
 <br/>
 SSR in GatsbyJS: <a href="https://www.gatsbyjs.com/docs/how-to/rendering-options/using-server-side-rendering/#introduction">
